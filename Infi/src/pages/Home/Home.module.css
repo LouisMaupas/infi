@@ -1,0 +1,24 @@
+/* src/pages/Home/Home.module.css */
+.container {
+    padding: 16px;
+}
+
+.content {
+    max-width: 100%;
+    width: 100%;
+}
+
+.card {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .container {
+        padding: 24px;
+    }
+
+    .content {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+}
